@@ -1,6 +1,6 @@
 # Intro
 
-This is a repository that shows how to create a global modal equivalent to browser `window.confirm` with Alpinejs.
+This is a repository that shows how to create a global modal which is equivalent to browser `window.confirm` with Alpinejs.
 
 ![](https://github.com/kohheepeace/alpinejs-window-confirm/blob/master/alpine-confirm-demo-with-tailwind.gif)
 
@@ -64,7 +64,7 @@ In `index.html`
 </button>
 ```
 
-So, you can define `window.customConfirm` function and call it from button by using Alpinejs.
+Now, we defined `window.customConfirm` function and can call it from button by using Alpinejs.
 
 ## Step 2: Add Modal
 
@@ -95,7 +95,7 @@ Please modify `index.html` like below.
 
 ## Step 3 Add Alpine Store
 
-To handle modal open state, let's add [Alpine store](https://alpinejs.dev/globals/alpine-store).
+To handle modal's `open` state, let's add [Alpine store](https://alpinejs.dev/globals/alpine-store).
 
 `script.js`
 
@@ -136,6 +136,8 @@ window.customConfirm = () => {
 };
 ```
 
+Now we can toggle modal like below.
+
 ![](https://github.com/kohheepeace/alpinejs-window-confirm/blob/master/alpine-confirm-tuto-step3-1.gif)
 
 ## Step 4 Add function `onOk` and `onCancel`
@@ -144,6 +146,7 @@ In this step, we're going to add function when modal OK and Cancel is clicked.
 
 `script.js`
 
+* Note: this code is for showing wrong implementation.
 ```js
 document.addEventListener('alpine:init', () => {
   Alpine.store('confirmModal', {
@@ -208,7 +211,7 @@ Then in `index.html`
 
 Now, we can assign `onOk` and `onCancel` function to buttons in modal.
 
-**But it does not return boolean true or false**.
+🚫 **But**, it does not return boolean `true` or `false` value.
 
 In the next step, we will learn how to fix this issue.
 
@@ -247,7 +250,7 @@ And in `index.html`
 
 Alpine `@click` does not need to declare `async`, just using `await` is enough.
 
-You will see now, `window.customConfirm` returns boolean `true` in console.
+You will see now, `window.customConfirm` returns boolean `true` value in console.
 
 ## Step 6 Assign `resolve(true)` to `onOk` and `onCancel`
 
