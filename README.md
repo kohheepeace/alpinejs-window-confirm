@@ -293,7 +293,7 @@ window.customConfirm = () => {
 
 By doing this, we override `onOk` and `onCancel` logic when `window.customConfirm` is called to return boolean `true` or `false`.
 
-## Finish!.
+## Finish!
 
 This is the final code of this tutorial.
 
@@ -301,4 +301,5 @@ https://web-platform-rrgo1m.stackblitz.io
 
 ## Realworld example with Tailwind
 
+And this is code which is shown in Intro with tailwind.
 https://stackblitz.com/edit/web-platform-nwc4sm
