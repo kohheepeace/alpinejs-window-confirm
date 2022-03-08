@@ -13,7 +13,7 @@ document.addEventListener('alpine:init', () => {
 
 window.customConfirm = (props) => {
   return new Promise((resolve, reject) => {
-    const confirmModal = window.Alpine.store('confirmModal');
+    const confirmModal = Alpine.store('confirmModal');
 
     Object.assign(confirmModal, props);
 
