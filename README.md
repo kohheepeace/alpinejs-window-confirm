@@ -2,7 +2,7 @@
 
 This is a repository that shows how to create a global modal equivalent to `window.confirm` with Alpinejs.
 
-![](./step-3-1.gif)
+![](https://github.com/kohheepeace/alpinejs-window-confirm/blob/master/alpine-confirm-demo-with-tailwind.gif)
 
 ```html
   isConfirmed = await window.customConfirm({...});
@@ -134,7 +134,7 @@ window.customConfirm = () => {
 };
 ```
 
-![](step-3-1.gif)
+![](https://github.com/kohheepeace/alpinejs-window-confirm/blob/master/alpine-confirm-tuto-step3-1.gif)
 
 ## Step 4 Add function `onOk` and `onCancel`
 
