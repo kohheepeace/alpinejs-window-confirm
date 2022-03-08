@@ -110,7 +110,7 @@ document.addEventListener('alpine:init', () => {
 });
 ```
 
-Then, in `index.html`
+Then in `index.html`
 
 ```html
 <body>
@@ -146,7 +146,7 @@ In this step, we're going to add function when modal OK and Cancel is clicked.
 
 `script.js`
 
-* Note: this code is for showing wrong implementation.
+🚫 Note: this code is for showing wrong implementation.
 ```js
 document.addEventListener('alpine:init', () => {
   Alpine.store('confirmModal', {
