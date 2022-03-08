@@ -303,3 +303,7 @@ https://web-platform-rrgo1m.stackblitz.io
 
 And this is code which is shown in Intro with tailwind.
 https://stackblitz.com/edit/web-platform-nwc4sm
+
+## Refs
+👋 This example is totaly inspired by this great stackoverflow answer
+https://stackoverflow.com/a/58891905/6037441
