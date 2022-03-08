@@ -4,6 +4,8 @@ This is a repository that shows how to create a global modal equivalent to `wind
 
 ![](https://github.com/kohheepeace/alpinejs-window-confirm/blob/master/alpine-confirm-demo-with-tailwind.gif)
 
+You can call `window.customConfirm` to get boolean `true` or `false` like below.
+
 ```html
   isConfirmed = await window.customConfirm({...});
   console.log(isConfirmed) // 👈 true or false
