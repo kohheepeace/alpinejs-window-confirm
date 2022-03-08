@@ -1,6 +1,6 @@
 # Intro
 
-This is a repository that shows how to create a global modal equivalent to `window.confirm` with Alpinejs.
+This is a repository that shows how to create a global modal equivalent to browser `window.confirm` with Alpinejs.
 
 ![](https://github.com/kohheepeace/alpinejs-window-confirm/blob/master/alpine-confirm-demo-with-tailwind.gif)
 
