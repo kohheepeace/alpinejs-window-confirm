@@ -93,7 +93,7 @@ Please modify `index.html` like below.
 </body>
 ```
 
-## Step 3 Add Alpine Store
+## Step 3: Add Alpine Store
 
 To handle modal's `open` state, let's add [Alpine store](https://alpinejs.dev/globals/alpine-store).
 
@@ -140,7 +140,7 @@ Now we can toggle modal like below.
 
 ![](https://github.com/kohheepeace/alpinejs-window-confirm/blob/master/alpine-confirm-tuto-step3-1.gif)
 
-## Step 4 Add function `onOk` and `onCancel`
+## Step 4: Add function `onOk` and `onCancel`
 
 In this step, we're going to add function when modal OK and Cancel is clicked.
 
@@ -215,7 +215,7 @@ Now, we can assign `onOk` and `onCancel` function to buttons in modal.
 
 In the next step, we will learn how to fix this issue.
 
-## Step 5 Promise
+## Step 5: Promise
 
 To get boolean value from `window.customConfirm`, we need to use `Promise`.
 
@@ -252,7 +252,7 @@ Alpine `@click` does not need to declare `async`, just using `await` is enough.
 
 You will see now, `window.customConfirm` returns boolean `true` value in console.
 
-## Step 6 Assign `resolve(true)` to `onOk` and `onCancel`
+## Step 6: Assign `resolve(true)` to `onOk` and `onCancel`
 
 First we make store `onOk` and `onCancel` blank function at begining.
 
@@ -304,7 +304,7 @@ https://web-platform-rrgo1m.stackblitz.io
 
 ## Realworld example with Tailwind
 
-And this is code which is shown in Intro with tailwind.
+And this is a confirm modal with tailwind which is shown in Intro section.
 https://stackblitz.com/edit/web-platform-nwc4sm
 
 ## Refs
